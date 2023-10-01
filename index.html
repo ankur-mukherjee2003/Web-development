@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+   
+    <title>Document</title>
+    <script>
+        function bodyload(){
+            window.document.forms[0].elements[1].value="Register"
+            window.document.forms[1].elements[1].value="Login"
+        }
+    </script>
+</head>
+<body>
+    <body onload="bodyload()">
+    <form>
+        <h2>Register</h2>
+        <input type="text">
+        <input type="button">
+    </form>
+    <form>
+        <h2>Login</h2>
+        <input type="text">
+        <input type="button">
+    </form>
+</body>
+</html>
